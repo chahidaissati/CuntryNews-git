@@ -34,7 +34,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, white, rgb(32, 60, 138));
+    background: linear-gradient(to bottom, rgb(223, 223, 223), rgb(32, 60, 138));
 }
 
 body.dark {
@@ -76,6 +76,7 @@ main {
 main .article-grid {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 20px; /* Voeg gap toe om de artikelen uit elkaar te houden */
 }
 
 #nieuws {

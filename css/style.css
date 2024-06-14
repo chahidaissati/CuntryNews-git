@@ -20,8 +20,8 @@
 
 @font-face {
     font-family: 'woodcutregular';
-    src: url('/fonts/woodcut-webfont.woff2') format('woff2'),
-         url('/fonts/woodcut-webfont.woff') format('woff');
+    src: url('./fonts/woodcut-webfont.woff2') format('woff2'),
+         url('./fonts/woodcut-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

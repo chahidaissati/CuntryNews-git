@@ -106,9 +106,12 @@ main .article-grid {
 }
 .genoeg-gelezen{
     color: rgb(32, 60, 138);
+    background-color: #f0f0f0;
 }
 .genoeg-gelezen:hover{
-    color: #f0f0f0
+    color: #f0f0f0;
+    background-color: rgb(32, 60, 138);
+    
 }
 .Lees-meer1{
     color: rgb(32, 60, 138);
@@ -132,15 +135,13 @@ article h3, article h4, article h5, article h6 {
     color: #f0f0f0;
 }
 
-article p {
-    color: #ffffff;
-}
-
 article a {
     color: #ffffff;
     text-decoration: none;
 }
-
+article p {
+    color: rgb(32, 60, 138);
+}
 article a:hover {
     text-decoration: underline;
 }
@@ -223,22 +224,15 @@ h1, h2, h3, h4, h5, h6{
     color: #f0f0f0;
 }
 h5 {
-    font-family: woodcutregular
-
+    font-family: woodcutregular;
+}
+h8 {
+    font-family: woodcutregular;
+    color: #f0f0f0;
 }
 section{
     padding: 32px;
     margin-bottom: 32px;
-
-
-
-
-
-
-
-
-
-    
     border-radius: 8px;
     box-shadow: 0 0 10px rgb(255, 255, 255);
     border: 1px solid #ffffff;
